@@ -11,7 +11,7 @@ The design is implemented in **Verilog** for FPGA synthesis and verified against
 ## **Features**  
 ### **1. Median Filter (Noise Reduction)**  
 - Removes salt-and-pepper noise.  
-- Processes a **512×512 window**, replacing each pixel with the median value.  
+- Processes a **3x3 window**, replacing each pixel with the median value.  
 - **Edge pixels** are left unchanged.  
 
 ### **2. Sobel Edge Detection**  
