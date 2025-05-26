@@ -8,20 +8,6 @@ The design is implemented in **Verilog** for FPGA synthesis and verified against
 
 ---
 
-## **Repository Structure**  
-```
-├── boo.v                  # Verilog module (Sobel + Median Filter)  
-├── tb.v                   # Testbench for simulation  
-├── goldenMeasure.py       # Python reference model  
-├── img/                   # Input images (converted to .hex)  
-│   └── image.hex          # Sample input (512x512 grayscale)  
-└── out/                   # Output files  
-    ├── sobel.hex          # Verilog output  
-    └── goldenOutput.png   # Python reference output  
-```
-
----
-
 ## **Features**  
 ### **1. Median Filter (Noise Reduction)**  
 - Removes salt-and-pepper noise.  
